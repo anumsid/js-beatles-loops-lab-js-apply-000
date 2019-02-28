@@ -26,3 +26,12 @@ var finalArray=[]
     while(number<15);
     return finalArray;
   }
+
+function iLoveTheBeatles(n) {
+  var emptyArray=[]
+  while (n < 15) {
+    emptyArray.push("I Love the Beatles!")
+    n++
+  }
+  return emptyArray;
+}
